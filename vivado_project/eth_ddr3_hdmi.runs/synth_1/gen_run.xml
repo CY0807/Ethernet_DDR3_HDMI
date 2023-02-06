@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2L" LaunchTime="1675672691">
+  <File Type="PA-TCL" Name="eth_ddr3_hdmi_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="eth_ddr3_hdmi_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="eth_ddr3_hdmi_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="eth_ddr3_hdmi_top.vds"/>
+  <File Type="RDS-UTIL" Name="eth_ddr3_hdmi_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="eth_ddr3_hdmi_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="eth_ddr3_hdmi_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="eth_ddr3_hdmi_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="eth_ddr3_hdmi_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/eth/arp/arp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/arp/arp.v"/>
+        <Attr Name="ImportTime" Val="1581932645"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/arp/arp_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/arp/arp_rx.v"/>
+        <Attr Name="ImportTime" Val="1610005288"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/arp/arp_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/arp/arp_tx.v"/>
+        <Attr Name="ImportTime" Val="1582361828"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/arp/crc32_d8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/arp/crc32_d8.v"/>
+        <Attr Name="ImportTime" Val="1582278807"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/hdmi_define.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_define.v"/>
+        <Attr Name="ImportTime" Val="1673338177"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/datain_2_rgb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/datain_2_rgb.v"/>
+        <Attr Name="ImportTime" Val="1675649853"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ddr3/ddr3_fifo_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_fifo_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1675614942"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ddr3/ddr3_rw.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_rw.v"/>
+        <Attr Name="ImportTime" Val="1675305953"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ddr3/ddr3_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ddr3/ddr3_top.v"/>
+        <Attr Name="ImportTime" Val="1675614944"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/eth_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/eth_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1582625548"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/eth_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/eth_top.v"/>
+        <Attr Name="ImportTime" Val="1675614377"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/gmii_to_rgmii/gmii_to_rgmii.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/gmii_to_rgmii/gmii_to_rgmii.v"/>
+        <Attr Name="ImportTime" Val="1585792037"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/hdmi_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/hdmi_top.v"/>
+        <Attr Name="ImportTime" Val="1675317208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/gmii_to_rgmii/rgmii_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/gmii_to_rgmii/rgmii_rx.v"/>
+        <Attr Name="ImportTime" Val="1585792099"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/gmii_to_rgmii/rgmii_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/gmii_to_rgmii/rgmii_tx.v"/>
+        <Attr Name="ImportTime" Val="1582705229"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/udp/udp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/udp/udp.v"/>
+        <Attr Name="ImportTime" Val="1596542499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/udp/udp_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/udp/udp_rx.v"/>
+        <Attr Name="ImportTime" Val="1610002364"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/eth/udp/udp_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/eth/udp/udp_tx.v"/>
+        <Attr Name="ImportTime" Val="1614305818"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/SyncAsync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsync.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/SyncAsyncReset.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/ClockGen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/ClockGen.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/DVI_Constants.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/DVI_Constants.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/OutputSERDES.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/TMDS_Encoder.vhd"/>
+        <Attr Name="ImportTime" Val="1554257531"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/hdmi/RGB2dvi/rgb2dvi.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/hdmi/RGB2dvi/rgb2dvi.vhd"/>
+        <Attr Name="ImportTime" Val="1452922974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/eth_ddr3_hdmi_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/new/eth_ddr3_hdmi_top.v"/>
+        <Attr Name="ImportTime" Val="1675671443"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_a.prj"/>
+        <Attr Name="ImportTime" Val="1674094712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="mig_7series_0"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_b.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/sources_1/ip/mig_7series_0/mig_b.prj"/>
+        <Attr Name="ImportTime" Val="1674094712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="mig_7series_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="eth_ddr3_hdmi_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../eth_ddr3_hdmi/eth_ddr3_hdmi.srcs/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc"/>
+        <Attr Name="ImportTime" Val="1675671712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/bram_ddr3_hdmi_test_pin.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mig_7series_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="rd_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="wr_fifo"/>
+</GenRun>

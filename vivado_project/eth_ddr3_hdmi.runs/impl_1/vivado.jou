@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Feb  6 16:39:50 2023
+# Process ID: 6444
+# Current directory: E:/github_repo/eth_ddr3_hdmi/vivado_project/eth_ddr3_hdmi.runs/impl_1
+# Command line: vivado.exe -log eth_ddr3_hdmi_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eth_ddr3_hdmi_top.tcl -notrace
+# Log file: E:/github_repo/eth_ddr3_hdmi/vivado_project/eth_ddr3_hdmi.runs/impl_1/eth_ddr3_hdmi_top.vdi
+# Journal file: E:/github_repo/eth_ddr3_hdmi/vivado_project/eth_ddr3_hdmi.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source eth_ddr3_hdmi_top.tcl -notrace
